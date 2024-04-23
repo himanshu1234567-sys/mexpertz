@@ -1,0 +1,10 @@
+.gradient-bg {
+    background-image: linear-gradient(to bottom right, #6f1c92, #1b91da); /* Example gradient colors */
+    color: white; /* Set text color to white for better contrast */
+  }
+  
+  .bt{
+    color: linear-gradient(to bottom right, #6f1c92, #1b91da); /* Example gradient colors */
+    color: white; /* Set text color to white for better contrast */
+
+  }

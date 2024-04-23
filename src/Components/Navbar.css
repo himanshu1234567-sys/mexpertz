@@ -1,0 +1,13 @@
+.gradient-bg_nav {
+    border-radius: 50px;
+    width: 150px;
+
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
+    /* Example gradient colors */
+    color: white;
+    /* Set text color to white for better contrast */
+}
+.d_btn{
+    
+}

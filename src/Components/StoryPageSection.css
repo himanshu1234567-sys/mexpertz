@@ -1,0 +1,39 @@
+.btn___{
+    display: flex;
+    justify-content: center;
+margin-bottom: 20px;
+}
+.button_5{
+    border-radius: 50px;
+    width: 200px;
+height: 50%;
+margin-right: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
+    color: white;
+    /* Set text color to white for better contrast */
+}
+.button_7{
+    border-radius: 50px;
+    width: 200px;
+height: 50%;
+margin-right: 10px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
+    color: white;
+    /* Set text color to white for better contrast */
+}
+.button_6{
+    border-radius: 50px;
+    width: 200px;
+height: 50%;
+margin-right: 10px;
+    padding: 5px;
+   background-color: transparent;
+    color: white;
+    /* Set text color to white for better contrast */
+}
+.s_tag{
+    padding: 10px;
+margin-bottom: 20px;
+}
