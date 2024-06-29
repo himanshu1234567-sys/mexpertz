@@ -1,39 +1,108 @@
-.btn___{
+/* StoryPageSection.css */
+
+
+  
+
+  .card {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* padding: 10px; */
+    margin-top: 20px;
+  }
+  
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .gradient-text {
+    background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 0 15px;
+  }
+  
+  .btn___ {
     display: flex;
     justify-content: center;
-margin-bottom: 20px;
-}
-.button_5{
+    margin-bottom: 20px;
+    
+  }
+  
+  .button_5 {
     border-radius: 50px;
     width: 200px;
-height: 50%;
-margin-right: 10px;
+    height: 50%;
+    margin-right: 10px;
     padding: 5px;
     background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
     color: white;
-    /* Set text color to white for better contrast */
-}
-.button_7{
+  }
+  
+  .button_7 {
     border-radius: 50px;
     width: 200px;
-height: 50%;
-margin-right: 10px;
+    height: 50%;
+    margin-right: 10px;
     padding: 5px;
     background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
     color: white;
-    /* Set text color to white for better contrast */
-}
-.button_6{
+  }
+  
+  .button_6 {
     border-radius: 50px;
     width: 200px;
-height: 50%;
-margin-right: 10px;
+    height: 50%;
+    margin-right: 10px;
     padding: 5px;
-   background-color: transparent;
+    background-color: transparent;
     color: white;
-    /* Set text color to white for better contrast */
-}
-.s_tag{
+  }
+  
+  .s_tag {
+    padding: 20px;
+    margin-top: 20px;
+color: #1b91da;
+  }
+
+  .story-row {
+    display: flex;
+    justify-content: flex-end; /* Aligns the row to the right-end */
+  }
+  
+  .border_div{
+    border: 1px solid wheat;
+    border-radius: 10px;
+  }
+  .heading{
     padding: 10px;
-margin-bottom: 20px;
-}
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+  }

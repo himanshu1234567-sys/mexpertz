@@ -1,40 +1,42 @@
-.button_{
-    border-radius: 50px;
-    width: 120px;
-
-    padding: 10px;
-   background-color:rgb(44, 44, 205) ;
-    color: white;
-    /* Set text color to white for better contrast */
-}
-.btn__{
-    justify-content: space-around;
+.btn__ {
     display: flex;
-}
-.button_2{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    width: 100%;
+    
+  }
+  
+  .button_, .button_2, .button_3, .button_4 {
     border-radius: 50px;
-    width: 120px;
-
-    padding: 10px;
-   background-color:rgb(203, 178, 36) ;
+    width: 140px; /* Increased width to accommodate the icon */
+    padding: 5px;
     color: white;
-    /* Set text color to white for better contrast */
-}
-.button_3{
-    border-radius: 50px;
-    width: 120px;
-
-    padding: 10px;
-   background-color:rgb(20, 234, 31) ;
-    color: white;
-    /* Set text color to white for better contrast */
-}
-.button_4{
-    border-radius: 50px;
-    width: 120px;
-
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+  }
+  
+  .button_ .icon, .button_2 .icon, .button_3 .icon, .button_4 .icon {
+    width: 50px; /* Set the size of the icon */
+    height: 50px;
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .button_ {
+    background-color: rgb(44, 44, 205);
+  }
+  
+  .button_2 {
+    background-color: rgb(203, 178, 36);
+  }
+  
+  .button_3 {
+    background-color: rgb(20, 234, 31);
+  }
+  
+  .button_4 {
     background-image: linear-gradient(to bottom right, #6f1c92, #1b91da);
-    color: white;
-    /* Set text color to white for better contrast */
-}
+  }
+  
